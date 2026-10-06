@@ -26,7 +26,7 @@
 <text x="578.0" y="363" text-anchor="middle">1.0</text>
 <text x="57" y="47.0" text-anchor="end">1.0</text>
 
-<path class="curve" d="M 578.0 212.0 L 578.0 47.8 L 578.0 43.0 L 569.8 43.0 L 561.5 43.0 L 553.3 43.0 L 545.1 43.0 L 68.0 43.0"/>
+<path class="curve" d="M 578.0 212.0 L 578.0 43.0 L 569.8 43.0 L 561.5 43.0 L 553.3 43.0 L 545.1 43.0 L 68.0 43.0"/>
 <path class="axis" d="M 68 43 V 343 H 578" fill="none"/>
 <text x="323.0" y="398" text-anchor="middle">Recall</text>
 <text x="18" y="193.0" text-anchor="middle" transform="rotate(-90 18 193.0)">Precision</text>

@@ -25,11 +25,11 @@
       "detection_rate": 1.0,
       "false_positive_rate": 0.0
     },
-    "normal_capture_false_positive_rate_medium_or_high": 0.004,
+    "normal_capture_false_positive_rate_medium_or_high": 0.0,
     "normal_capture_false_positive_rate_high": 0.0,
     "roc_auc": 1.0,
     "pr_auc_average_precision": 1.0,
-    "normal_capture_medium_or_high_false_positives": 2
+    "normal_capture_medium_or_high_false_positives": 0
   },
   "per_attack": {
     "port_scan": {
@@ -39,7 +39,7 @@
       "medium_or_high_detected": 26,
       "rule_matched": 26,
       "rule_match_rate": 1.0,
-      "mean_score": 98.0
+      "mean_score": 84.0
     },
     "slow_scan": {
       "flows": 32,
@@ -48,7 +48,7 @@
       "medium_or_high_detected": 32,
       "rule_matched": 32,
       "rule_match_rate": 1.0,
-      "mean_score": 98.0
+      "mean_score": 84.0
     },
     "exfiltration": {
       "flows": 1,
@@ -57,7 +57,7 @@
       "medium_or_high_detected": 1,
       "rule_matched": 1,
       "rule_match_rate": 1.0,
-      "mean_score": 96.0
+      "mean_score": 82.0
     },
     "dos_burst": {
       "flows": 1,
@@ -66,7 +66,7 @@
       "medium_or_high_detected": 1,
       "rule_matched": 1,
       "rule_match_rate": 1.0,
-      "mean_score": 92.0
+      "mean_score": 78.0
     },
     "beaconing": {
       "flows": 1,
@@ -75,7 +75,7 @@
       "medium_or_high_detected": 1,
       "rule_matched": 1,
       "rule_match_rate": 1.0,
-      "mean_score": 84.0
+      "mean_score": 70.0
     },
     "dns_tunnel": {
       "flows": 1,
@@ -84,7 +84,7 @@
       "medium_or_high_detected": 1,
       "rule_matched": 1,
       "rule_match_rate": 1.0,
-      "mean_score": 90.0
+      "mean_score": 76.0
     }
   },
   "method": {
