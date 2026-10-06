@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "artifacts": {
+    "rf_classifier.joblib": "667b1a11d94a334ff944acefb928cc0bb13cb42b8390c84308562d94a06bef15",
+    "scaler.joblib": "b31ea44df82dc66c620ea79f1b3214fc636c1432b6e285fc828809b381fdfc89",
+    "label_encoder.joblib": "ae39afc785a0570a81eda0b1966d649e475d2f91280f8b0dd665a4e8cce5eefd",
+    "anomaly_iforest.joblib": "4fc8210d100e27b4b7d6a2d10d168d82105f53b1d76e1780355fb962c84a774c",
+    "anomaly_scaler.joblib": "6725298ff4553b6d9d1a1bbc80619c874a4f5f5d31431dfe1f33b8d9c824515b"
+  }
+}

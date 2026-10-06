@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68,<81", "wheel>=0.42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signal-flow"
+version = "1.0.0"
+description = "Signal / Flow: privacy-friendly network anomaly monitor and traffic classifier using packet metadata only"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "scapy==2.7.0",
+  "pandas==3.0.2",
+  "numpy==2.4.6",
+  "scikit-learn==1.8.0",
+  "joblib==1.5.3",
+  "Flask==3.1.3",
+  "Flask-SocketIO==5.6.1",
+  "python-socketio==5.16.4",
+  "python-dotenv>=1.0,<2.0",
+  "gunicorn==23.0.0; sys_platform != 'win32'",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<10",
+  "ruff>=0.11,<1",
+]
+browser = [
+  "playwright>=1.45",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = [
+  "anomaly",
+  "app",
+  "artifacts",
+  "capture",
+  "features",
+  "flows",
+  "live_classify",
+  "pcap_reader",
+  "pipeline",
+  "qos",
+  "train",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src", "scripts", "tests"]
+exclude = ["venv", ".venv", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+

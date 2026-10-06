@@ -1,0 +1,185 @@
+{
+  "trained_at_utc": "2026-10-05T13:06:25.325926+00:00",
+  "python_version": "3.11.9",
+  "scikit_learn_version": "1.8.0",
+  "training_source": "real benign captures: traffic.pcap",
+  "training_rows": 901,
+  "training_sessions": 1,
+  "feature_names": [
+    "packet_count",
+    "duration",
+    "total_bytes",
+    "bytes_per_sec",
+    "packets_per_sec",
+    "up_packet_count",
+    "down_packet_count",
+    "up_down_packet_ratio",
+    "up_bytes",
+    "down_bytes",
+    "up_down_byte_ratio",
+    "pkt_size_mean",
+    "pkt_size_median",
+    "pkt_size_std",
+    "pkt_size_min",
+    "pkt_size_max",
+    "up_pkt_size_mean",
+    "up_pkt_size_std",
+    "down_pkt_size_mean",
+    "down_pkt_size_std",
+    "iat_mean",
+    "iat_std",
+    "iat_min",
+    "iat_max",
+    "iat_cv",
+    "burst_fraction",
+    "longest_burst",
+    "small_pkt_fraction",
+    "large_pkt_fraction",
+    "mtu_pkt_fraction",
+    "is_udp",
+    "is_well_known_port",
+    "is_high_port",
+    "max_concurrent_flows"
+  ],
+  "score_threshold_q01": -0.6568184456581404,
+  "score_min": -0.734275821912142,
+  "feature_stats": {
+    "packet_count": {
+      "mean": 138.850166481687,
+      "std": 1130.0881487489432
+    },
+    "duration": {
+      "mean": 25.856879088775433,
+      "std": 68.73511810684295
+    },
+    "total_bytes": {
+      "mean": 164254.6459489456,
+      "std": 1372714.1441379546
+    },
+    "bytes_per_sec": {
+      "mean": 30478.1574479977,
+      "std": 249058.04271706118
+    },
+    "packets_per_sec": {
+      "mean": 44.9463702644279,
+      "std": 217.2538668434801
+    },
+    "up_packet_count": {
+      "mean": 31.035516093229745,
+      "std": 138.52218621903182
+    },
+    "down_packet_count": {
+      "mean": 107.81465038845727,
+      "std": 1000.1544653436
+    },
+    "up_down_packet_ratio": {
+      "mean": 1.0838032571168807,
+      "std": 2.2514427780579642
+    },
+    "up_bytes": {
+      "mean": 10280.20088790233,
+      "std": 102589.07802959274
+    },
+    "down_bytes": {
+      "mean": 153974.44506104328,
+      "std": 1352232.3918551984
+    },
+    "up_down_byte_ratio": {
+      "mean": 33.19158126761253,
+      "std": 560.0856841659338
+    },
+    "pkt_size_mean": {
+      "mean": 404.0846908707625,
+      "std": 430.79742484033864
+    },
+    "pkt_size_median": {
+      "mean": 222.37069922308547,
+      "std": 306.09921404962387
+    },
+    "pkt_size_std": {
+      "mean": 519.9920669211673,
+      "std": 949.2746879932337
+    },
+    "pkt_size_min": {
+      "mean": 83.17758046614873,
+      "std": 16.251750938722537
+    },
+    "pkt_size_max": {
+      "mean": 2484.398446170921,
+      "std": 6633.190005010598
+    },
+    "up_pkt_size_mean": {
+      "mean": 229.18715520887238,
+      "std": 246.60594997891832
+    },
+    "up_pkt_size_std": {
+      "mean": 292.0844236093805,
+      "std": 450.14039420406556
+    },
+    "down_pkt_size_mean": {
+      "mean": 528.1417799288274,
+      "std": 643.0260611114876
+    },
+    "down_pkt_size_std": {
+      "mean": 531.4977104560044,
+      "std": 1115.5470021060244
+    },
+    "iat_mean": {
+      "mean": 1.255994872379104,
+      "std": 4.849107514574261
+    },
+    "iat_std": {
+      "mean": 2.8779774952472006,
+      "std": 8.470286061325025
+    },
+    "iat_min": {
+      "mean": 0.13938135391599463,
+      "std": 1.8847306158146442
+    },
+    "iat_max": {
+      "mean": 12.329573018172473,
+      "std": 29.049135925092898
+    },
+    "iat_cv": {
+      "mean": 3.067561349748629,
+      "std": 5.403235763156624
+    },
+    "burst_fraction": {
+      "mean": 0.4451311055318018,
+      "std": 0.36142843925439605
+    },
+    "longest_burst": {
+      "mean": 54.45504994450611,
+      "std": 552.9953822759826
+    },
+    "small_pkt_fraction": {
+      "mean": 0.4590750165901253,
+      "std": 0.27488122032801654
+    },
+    "large_pkt_fraction": {
+      "mean": 0.14618024226913315,
+      "std": 0.1962959260364827
+    },
+    "mtu_pkt_fraction": {
+      "mean": 0.03603404043789197,
+      "std": 0.06300994953774233
+    },
+    "is_udp": {
+      "mean": 0.5294117647058824,
+      "std": 0.49913419848462176
+    },
+    "is_well_known_port": {
+      "mean": 0.9889012208657048,
+      "std": 0.1047644798394158
+    },
+    "is_high_port": {
+      "mean": 0.005549389567147614,
+      "std": 0.07428723875996232
+    },
+    "max_concurrent_flows": {
+      "mean": 53.60266370699223,
+      "std": 26.70706286941906
+    }
+  },
+  "note": "Fitted on operator-supplied benign traffic; only valid for similar networks."
+}

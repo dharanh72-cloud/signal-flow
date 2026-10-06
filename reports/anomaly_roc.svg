@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ROC curve · synthetic attack flows" width="620" height="410" viewBox="0 0 620 410">
+<style>text{font:12px system-ui,sans-serif;fill:#65758a}.title{font-size:17px;font-weight:700;fill:#182b42}.axis{stroke:#8392a3;stroke-width:1}.curve{fill:none;stroke:#3475d2;stroke-width:3}.baseline{fill:none;stroke:#b1bac5;stroke-dasharray:5 5}</style>
+<text class="title" x="68" y="24">ROC curve · synthetic attack flows</text>
+<path d="M 68 343.0 H 578" stroke="#e4e9ef"/>
+<path d="M 68.0 43 V 343" stroke="#e4e9ef"/>
+<text x="68.0" y="363" text-anchor="middle">0.0</text>
+<text x="57" y="347.0" text-anchor="end">0.0</text>
+<path d="M 68 283.0 H 578" stroke="#e4e9ef"/>
+<path d="M 170.0 43 V 343" stroke="#e4e9ef"/>
+<text x="170.0" y="363" text-anchor="middle">0.2</text>
+<text x="57" y="287.0" text-anchor="end">0.2</text>
+<path d="M 68 223.0 H 578" stroke="#e4e9ef"/>
+<path d="M 272.0 43 V 343" stroke="#e4e9ef"/>
+<text x="272.0" y="363" text-anchor="middle">0.4</text>
+<text x="57" y="227.0" text-anchor="end">0.4</text>
+<path d="M 68 163.0 H 578" stroke="#e4e9ef"/>
+<path d="M 374.0 43 V 343" stroke="#e4e9ef"/>
+<text x="374.0" y="363" text-anchor="middle">0.6</text>
+<text x="57" y="167.0" text-anchor="end">0.6</text>
+<path d="M 68 103.0 H 578" stroke="#e4e9ef"/>
+<path d="M 476.0 43 V 343" stroke="#e4e9ef"/>
+<text x="476.0" y="363" text-anchor="middle">0.8</text>
+<text x="57" y="107.0" text-anchor="end">0.8</text>
+<path d="M 68 43.0 H 578" stroke="#e4e9ef"/>
+<path d="M 578.0 43 V 343" stroke="#e4e9ef"/>
+<text x="578.0" y="363" text-anchor="middle">1.0</text>
+<text x="57" y="47.0" text-anchor="end">1.0</text>
+<path class="baseline" d="M 68 343 L 578 43"/>
+<path class="curve" d="M 68.0 343.0 L 68.0 62.4 L 68.0 43.0 L 74.4 43.0 L 578.0 43.0"/>
+<path class="axis" d="M 68 43 V 343 H 578" fill="none"/>
+<text x="323.0" y="398" text-anchor="middle">False positive rate</text>
+<text x="18" y="193.0" text-anchor="middle" transform="rotate(-90 18 193.0)">True positive rate</text>
+</svg>

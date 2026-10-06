@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anomaly confusion matrix at score 60" width="420" height="260" viewBox="0 0 420 260">
+<style>text{font-family:system-ui,sans-serif;fill:#24384f}.muted{fill:#6c7d90;font-size:12px}.title{font-size:17px;font-weight:700}</style>
+<text x="20" y="26" class="title">Confusion matrix · score ≥ 60</text>
+<text x="160" y="57" class="muted">Predicted</text>
+<text x="185" y="83" text-anchor="middle" class="muted">benign</text>
+<text x="158" y="131" text-anchor="end" class="muted">benign</text>
+<rect x="170" y="91" width="88" height="54" rx="7" fill="#dceee5"/>
+<text x="214" y="125" text-anchor="middle" font-size="18" font-weight="700">80</text>
+<rect x="270" y="91" width="88" height="54" rx="7" fill="#ffe9e6"/>
+<text x="314" y="125" text-anchor="middle" font-size="18" font-weight="700">0</text>
+<text x="285" y="83" text-anchor="middle" class="muted">attack</text>
+<text x="158" y="197" text-anchor="end" class="muted">attack</text>
+<rect x="170" y="157" width="88" height="54" rx="7" fill="#f6e8e1"/>
+<text x="214" y="191" text-anchor="middle" font-size="18" font-weight="700">0</text>
+<rect x="270" y="157" width="88" height="54" rx="7" fill="#d8e5fa"/>
+<text x="314" y="191" text-anchor="middle" font-size="18" font-weight="700">62</text>
+</svg>

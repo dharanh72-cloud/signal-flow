@@ -1,0 +1,4007 @@
+{
+  "capture": "normal.pcap",
+  "synthetic": true,
+  "ground_truth_scope": "flow-level; truth labels are separate from the PCAP",
+  "flows": [
+    {
+      "flow_id": "3230da14ccec",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "87074eaa0eae",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "8c2c9d34c1ca",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "32e224b2dbb2",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "9cb4fa98387c",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "401daf99bdbc",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "1f470873d238",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "117a75f01ef2",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 22
+    },
+    {
+      "flow_id": "77b51a646102",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 21
+    },
+    {
+      "flow_id": "9a4dc8d860b8",
+      "session_id": "synthetic-browsing-00",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "1ec94e746df3",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "232f5332e9e8",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "303f0ebf99d3",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "e794cd2978f2",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 22
+    },
+    {
+      "flow_id": "832d39fc893a",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "87e7ff452b13",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "de4a61ca951e",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "aaba7d3acf00",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "2aa2dc012c37",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "7b3b5d4d2eb1",
+      "session_id": "synthetic-browsing-01",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 23
+    },
+    {
+      "flow_id": "73ac2d6ee9ce",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "c95a08e7c0b3",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "c1efa1ada562",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "3538af9fe4bb",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "1c4106b6429c",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "7d0e1a35d71f",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "145b0a019fa2",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "ca1f013a19a8",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "3afd2455e722",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "6eda3d164430",
+      "session_id": "synthetic-browsing-02",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "978cd83d8b02",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "1441de25b30d",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "6a4a4896e1bd",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "2e80a1bd8946",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "f7026eb7897e",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "46d4724a5b91",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "414630cc0623",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 20
+    },
+    {
+      "flow_id": "79fbfb876d2f",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "b8cb82e95b24",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 22
+    },
+    {
+      "flow_id": "20978e5f32e8",
+      "session_id": "synthetic-browsing-03",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 24
+    },
+    {
+      "flow_id": "ff51466294dd",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "5f36ecdf4a2d",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "879480cef47a",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "a04d3be77f03",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "a60dffec4af7",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 22
+    },
+    {
+      "flow_id": "4555be2d26e2",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "7473dfe51cc3",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "4240d36ad8df",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "4511ed16f335",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 24
+    },
+    {
+      "flow_id": "9c42215fcab4",
+      "session_id": "synthetic-browsing-04",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 21
+    },
+    {
+      "flow_id": "661d44f50c7f",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "4135807e14c3",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "3c0b6d48e560",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "9436e67abe7a",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "b7476a83eacb",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "ab597ecc1294",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "89c003d53f7e",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 21
+    },
+    {
+      "flow_id": "8904df3f2c00",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "77ae92072e83",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 21
+    },
+    {
+      "flow_id": "fccdd4f97ff8",
+      "session_id": "synthetic-browsing-05",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "8ff5895f2b67",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "5cf5b7ee9f21",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "04585af79349",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 23
+    },
+    {
+      "flow_id": "dfda550ccb0a",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "197f979f85de",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 20
+    },
+    {
+      "flow_id": "965fb1afcbab",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "b154c5881016",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "9a9472a9d637",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "58d5d7eeb2df",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "609e0c90eab1",
+      "session_id": "synthetic-browsing-06",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "3996340e915e",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 21
+    },
+    {
+      "flow_id": "2ce0a76dbe67",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "5dba0beb528e",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "cc85f6a2be19",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "8cf1e42bb31f",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "f44347ea48fb",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "797ed4c0b5b9",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "dd530d981020",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "6317a165756f",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "7ec8531a9e9a",
+      "session_id": "synthetic-browsing-07",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 23
+    },
+    {
+      "flow_id": "ab12c6815642",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "cb29807a21ff",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "cfa2270ff31b",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "240616947697",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 23
+    },
+    {
+      "flow_id": "c33fdfac47e4",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 20
+    },
+    {
+      "flow_id": "3d2b3d99a7c5",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "7f152c86a2f6",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "37266dc21ea0",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "50a5c9c73697",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 22
+    },
+    {
+      "flow_id": "34e80fff954a",
+      "session_id": "synthetic-browsing-08",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "84395e249d99",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "55ed34956267",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 24
+    },
+    {
+      "flow_id": "a1c847e3dcfc",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "792621912875",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "f5fa2258264c",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 24
+    },
+    {
+      "flow_id": "33c35ff09a8a",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "472811cbdebd",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "97dd6ab7ca44",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 21
+    },
+    {
+      "flow_id": "2e07cb599362",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "cbb258e19f64",
+      "session_id": "synthetic-browsing-09",
+      "activity": "browsing",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "b2ca9b5fd5c3",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "95a0ada121ac",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "56f476693369",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "bd093047ad12",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "16fcded9d511",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "cadfb87b70aa",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "0a00084f6fbf",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "39b5e802f12d",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "6fd49749bb39",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "fd1d354d0b79",
+      "session_id": "synthetic-download-00",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "4dab2dc22213",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "54f0a8d7cebe",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "611e3c2216fb",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "baafe25aff71",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "de3309bd9dba",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "8fe66168f104",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "efcc4eef97d3",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "9cd20202cd36",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "27c9b3d19066",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "0a29169e25b8",
+      "session_id": "synthetic-download-01",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "aa9bce3560ba",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "95833c184eb2",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "26654b4ada49",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "1928c0820ae0",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "d86fdd5ff27d",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "b304e91a7d82",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "f3ce77b20508",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "9e9f55f80746",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "1697243f3841",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "066d7bfda45b",
+      "session_id": "synthetic-download-02",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "b9e836333c0b",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "ea7b56147b1e",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "bbcceede75a1",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "c82d55e5c5a2",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "3d17c02353fb",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "7599b640cc8f",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "dcc183b016ed",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "4e9b5fdfad43",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "136b6d46790b",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "1060c41e45ce",
+      "session_id": "synthetic-download-03",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "6fea6ece4a25",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "32e0b8dce420",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "de6efb5bffae",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "02e75b7efa9e",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "8c89250d4960",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 43
+    },
+    {
+      "flow_id": "023abbf0be66",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 47
+    },
+    {
+      "flow_id": "fb9c23e7d3ff",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "ec80d44364a9",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "c347737615af",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "286097572363",
+      "session_id": "synthetic-download-04",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "9fa7bd15d65a",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "d36e77cae17c",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "dfc259eabf81",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "e5e5d9aa2b7a",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "eff0b3c8b3e2",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "c5db896728a6",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "384add1ee6f8",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "db38c396f35c",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "d1e834bbf048",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "847b135c5445",
+      "session_id": "synthetic-download-05",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "827643acab64",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "b878d0daf8d8",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "edb925f2cbc0",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "65d32c4078b4",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "eabf9f2e63c1",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "b6211c3ec0c9",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "aef4786440bb",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "829d110c1158",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "587857ee72bc",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "e0ab85c3d743",
+      "session_id": "synthetic-download-06",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "83d1e2b56dc8",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "35eda1a9503f",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "0c6b087805a5",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "2f7938fc29bf",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "1829a953f24f",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "84f5c3e5a7d8",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "4bef1997215e",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "e3fb7d81842c",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "250b9d571c20",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "c1276d4aed4c",
+      "session_id": "synthetic-download-07",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "57aa16aeb78e",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "41a428498cbb",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 43
+    },
+    {
+      "flow_id": "f82151e643c9",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "705f8981bdfa",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "01629a7708b3",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "cda69bfe369c",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 43
+    },
+    {
+      "flow_id": "3b603554a843",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "cf07a60ea502",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "83a98b0872dd",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "5925b34be36e",
+      "session_id": "synthetic-download-08",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "34f9c0a96ae4",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "f9ea984e9aa6",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "ac578c98efa4",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "a0d71ebb3b86",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "00cba0e13a2a",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "4ee72dacffda",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "c48905799463",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "2ea40b945333",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "045c07b3c489",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 43
+    },
+    {
+      "flow_id": "2f36fac23446",
+      "session_id": "synthetic-download-09",
+      "activity": "download",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "4d4f33b18dde",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "252a0f47c4fd",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "3619b6bd64f0",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "c06c1b2c65c4",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "441071521f05",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "1af766bc2491",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "19da9c597c3e",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "4ea22a795f0b",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "d7e4fc011df2",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "bafb3e778944",
+      "session_id": "synthetic-gaming-00",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "34a2cdfa54a5",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 24
+    },
+    {
+      "flow_id": "8ea6469e3fca",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "251ae1d97d4c",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "72a05c800da0",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "359a426990ae",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "b48d11bf4033",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "eba392882b74",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "56bfbd9da805",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "0e31a7a0a19f",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 24
+    },
+    {
+      "flow_id": "9bf75786f7cc",
+      "session_id": "synthetic-gaming-01",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "d4c2435e031a",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "7dc79836a548",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "43b7647397d9",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "8bf5d9ef3418",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "f7bf87828ec8",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "a550b0b61427",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "37514521016e",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "ec583d6735cc",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "26317033d33c",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "161e275ca69e",
+      "session_id": "synthetic-gaming-02",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "e512b6005bd6",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "0e6adb57f65c",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "ca41031f0873",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "d9197ed41017",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "3b9e188609ca",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "e01480ce5645",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "4c755a2d6503",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "5f5681aec069",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "f5777e5afd62",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "7c4bf658d226",
+      "session_id": "synthetic-gaming-03",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "38c8563731dc",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "11c2ba3008ea",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "11d6dbce040f",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "816a3760a9a8",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "f6e4525a8c43",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "734a0cbf62ec",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "88ee1a4c9c0c",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "d006655d0f7d",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "173633ce6594",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "7b414162b54e",
+      "session_id": "synthetic-gaming-04",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "6da06d678810",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "338fa09fd201",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "ed4f48faad9c",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "4e4f64d55aad",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "bb2cb2acb04d",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "bef07be6dae5",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "ed340cefcc51",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "b9073562288e",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "2dd9f4400712",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "ceef4cb465c4",
+      "session_id": "synthetic-gaming-05",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "6371bf170bbd",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "4243c6173f58",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "8cdd74ea2fce",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "a16c4ec9a81e",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "8615bcb47ea4",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "76106bee7514",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "727324e549d9",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "6b2229858354",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "c4bb8291ab82",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "7981d0f06a32",
+      "session_id": "synthetic-gaming-06",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "801a66456acf",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "3bc0c4fea9bd",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "3b5b30865a1e",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "f22d70f04718",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "f717e74e555a",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "18c5f2c55729",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "384ef9ea3d13",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "e14f582dcbd1",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "f8f8e490622c",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "00bbc46a1fc9",
+      "session_id": "synthetic-gaming-07",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "5dceb818d026",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 27
+    },
+    {
+      "flow_id": "71cbb93758f3",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "7d1f77f545b4",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "8ac7cf333ac1",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 24
+    },
+    {
+      "flow_id": "8346d9eb797d",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "3e51cc0aa787",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "b77fddf1807b",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "da8b6650ea83",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "1539fa2e5359",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "4ecaf104431a",
+      "session_id": "synthetic-gaming-08",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "817964cad657",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "8b0cbc6531e6",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "74becdcf8497",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 24
+    },
+    {
+      "flow_id": "b389258348eb",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "083b53af28d0",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "5f93ea8959bf",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 26
+    },
+    {
+      "flow_id": "3ade15e9e38a",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "84293d7307c3",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "4b507ed815dc",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 25
+    },
+    {
+      "flow_id": "54168f72b007",
+      "session_id": "synthetic-gaming-09",
+      "activity": "gaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "57c4f86bf742",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 58
+    },
+    {
+      "flow_id": "47a64ed7978c",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "63c41fe0585c",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "6e114b569e55",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "dbea010dab0c",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 56
+    },
+    {
+      "flow_id": "76a61d106f76",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "9b9f0f9e9ee1",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "eba4a9812baf",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 57
+    },
+    {
+      "flow_id": "7260b5e8c9bf",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "ccfcbcca2512",
+      "session_id": "synthetic-streaming-00",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "2e0bd3fb4b54",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "6e04670b791c",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "f9a3e7bd0fdc",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "7547a2c042f8",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "bf3b5e334c03",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 56
+    },
+    {
+      "flow_id": "771a26fc809b",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "de41cb44895c",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "b785e58103ae",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 57
+    },
+    {
+      "flow_id": "f11534ce6d88",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 55
+    },
+    {
+      "flow_id": "540799a0a4dd",
+      "session_id": "synthetic-streaming-01",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "a8e36fe347fa",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 50
+    },
+    {
+      "flow_id": "7de4f82809ff",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "731bd68b1ba9",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "f74037f4d1e6",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 55
+    },
+    {
+      "flow_id": "7fe6c0bf6105",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 58
+    },
+    {
+      "flow_id": "a35e4a5464ae",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "2f3c30943a0a",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "8142cce1893e",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "4439fd0a6727",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "da082aaffe88",
+      "session_id": "synthetic-streaming-02",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "d8e018174c30",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "93354d4e2db6",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "fda370557ebe",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "761f78957b08",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "78d385641edc",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "565a7272d3d6",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 57
+    },
+    {
+      "flow_id": "1b53db699846",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "5d3f8ea43751",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 56
+    },
+    {
+      "flow_id": "cbf2efc744c6",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "461a8256cf46",
+      "session_id": "synthetic-streaming-03",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "7c7daf9b4346",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 57
+    },
+    {
+      "flow_id": "c7520ca3577e",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "1cb8995e46a8",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "bd608273500b",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 58
+    },
+    {
+      "flow_id": "f249e94252c5",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "79dde8feabea",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "514964299508",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "cc62f0a1f8ce",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 47
+    },
+    {
+      "flow_id": "bb2911de17b0",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "60110a995e02",
+      "session_id": "synthetic-streaming-04",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "5aeb66e97e88",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "6f0f2412b02b",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "65fae91a2290",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "8004c668eace",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "eb5988560382",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "9bac7e86c277",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "ef189b90df12",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 56
+    },
+    {
+      "flow_id": "30e397d8eb60",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "9e6bc9008ff2",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "cf40b941217d",
+      "session_id": "synthetic-streaming-05",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "c99e56852e8c",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 52
+    },
+    {
+      "flow_id": "04309296b3d1",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 43
+    },
+    {
+      "flow_id": "f31c04bc1f7d",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "bfa55fe06091",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "b9b8b2b08d4e",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "90d77bba6f07",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "4f02228e2967",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "f90d9b1409cc",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "dfbc810ed59a",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "f6e4450f31c5",
+      "session_id": "synthetic-streaming-06",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "9dcd8d03c5fa",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "f535b42b2196",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "ee8f4bb5b1c9",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "667cd7cae886",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "81d9ac3cb332",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 47
+    },
+    {
+      "flow_id": "87a45324d69e",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 51
+    },
+    {
+      "flow_id": "fb7121d329b4",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "993cdd39b6c6",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "b80589afeefa",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 57
+    },
+    {
+      "flow_id": "bf056544efb1",
+      "session_id": "synthetic-streaming-07",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 49
+    },
+    {
+      "flow_id": "636606d11814",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 53
+    },
+    {
+      "flow_id": "a241f375be85",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "5ed7f294636b",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "dafb4209ac57",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 58
+    },
+    {
+      "flow_id": "c6a376a17b20",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "44be3ae85ebb",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "9e8caa191f0f",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "5b87f0932c34",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "a1edb6b38d70",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "ea37171c121e",
+      "session_id": "synthetic-streaming-08",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "8e4e067aaa84",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "1f4c4ceb406d",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "bc6738aabb91",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "01e8a5f2b968",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "9d47acbe068b",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 54
+    },
+    {
+      "flow_id": "4a2e7bc16b7d",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 48
+    },
+    {
+      "flow_id": "fb2556a9717d",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 47
+    },
+    {
+      "flow_id": "1f8c6906358a",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "0eb8682d596a",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "a26dd4ddf795",
+      "session_id": "synthetic-streaming-09",
+      "activity": "streaming",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "13c2af90df4f",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "4a773397da57",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 43
+    },
+    {
+      "flow_id": "e63836663ade",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "71772306e589",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "369e0f352bde",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "457143380a99",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "67501c6cf2c8",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "3eff7f54913c",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "11be9405e169",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "0367df484752",
+      "session_id": "synthetic-video_call-00",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "8194a535cf5c",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "16318f67c555",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 43
+    },
+    {
+      "flow_id": "3a3d1ede3920",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "5d03d213fd17",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "c73e53313a23",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "ec15bbcfd5e2",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "7a151384b35a",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "1a7f900574d8",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "c07e83bbe564",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "e840924ef3c4",
+      "session_id": "synthetic-video_call-01",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "463c041f1434",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "c056ed021a46",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "ac1757dfd260",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "d75398ed825e",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "3d9b5939779d",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "09941256b92a",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "8d5eb0937988",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "70fc83ad7d14",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "182d0a7e0a96",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "eb7bfea1158c",
+      "session_id": "synthetic-video_call-02",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "722f40f1f7c6",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "1ad130214d80",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "6e00bfc98406",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 43
+    },
+    {
+      "flow_id": "ff3eeb070c1c",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "b4b37a5e4424",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 39
+    },
+    {
+      "flow_id": "5f1c27e74fe8",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "6ba91c34bdc8",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "1f86e49107d2",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "458dc6887adf",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "f42881fd63f9",
+      "session_id": "synthetic-video_call-03",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "6e5be7743e8a",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "606637e86fa7",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "9420ef9a1d11",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "e3ec868eb066",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "bf232026d9c7",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "2a5589b1f2a3",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "8178ad411bae",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "63d55b9ef0b0",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "9079720a91d4",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "029227a12ccb",
+      "session_id": "synthetic-video_call-04",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "4a69691a162a",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "a4583532c191",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "728f3dc39e0e",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 29
+    },
+    {
+      "flow_id": "560815181fef",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "941b7eb79578",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "4b072e414070",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "74d4396643af",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "96b9662f01d7",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "5d0bc4802bfa",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "c1b5e5e3c270",
+      "session_id": "synthetic-video_call-05",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "c33e926ef551",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "1be9b4f99d4c",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "645f6966479f",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "dbe32c17073c",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "554a35651b33",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "d689e7e8ac23",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "1f966b7b9418",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 33
+    },
+    {
+      "flow_id": "438c337e47d3",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "46ffce8f488a",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 45
+    },
+    {
+      "flow_id": "d6607f90c5a7",
+      "session_id": "synthetic-video_call-06",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "25177f75f744",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "7c04bd29b2ea",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "25308fe700bc",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "5bfdaf7b7a52",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "630a1d40741f",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 42
+    },
+    {
+      "flow_id": "ad2283007b8e",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 34
+    },
+    {
+      "flow_id": "8a08328b358e",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "60c6a008c67a",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "1e96b10b100b",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 30
+    },
+    {
+      "flow_id": "8d0fa1eabb69",
+      "session_id": "synthetic-video_call-07",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 37
+    },
+    {
+      "flow_id": "faf832ce979b",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 46
+    },
+    {
+      "flow_id": "f1e10a27d809",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "8c782a6924e7",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "8e2a62858066",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "422df3b3477c",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    },
+    {
+      "flow_id": "4dcc2dd0d669",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "e03bf6d1c8c4",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "fe769a95de3b",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "adaeff06ff8e",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 38
+    },
+    {
+      "flow_id": "9fcc6d682b86",
+      "session_id": "synthetic-video_call-08",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 41
+    },
+    {
+      "flow_id": "619efe8a6d95",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 32
+    },
+    {
+      "flow_id": "07ac44a2d1bb",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "26468b0bd084",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "3b81d6d2c1f9",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "116894a99254",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 40
+    },
+    {
+      "flow_id": "58c96a570e9d",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 36
+    },
+    {
+      "flow_id": "b14952c76b85",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 44
+    },
+    {
+      "flow_id": "f5b5730da796",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 31
+    },
+    {
+      "flow_id": "6930cae9eb74",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 28
+    },
+    {
+      "flow_id": "803bed9afbca",
+      "session_id": "synthetic-video_call-09",
+      "activity": "video_call",
+      "attack_type": null,
+      "is_attack": false,
+      "packets": 35
+    }
+  ]
+}

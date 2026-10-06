@@ -1,0 +1,6 @@
+actual/predicted,browsing,download,gaming,streaming,video_call
+browsing,20,0,0,0,0
+download,0,10,0,0,0
+gaming,0,0,20,0,0
+streaming,0,0,0,20,0
+video_call,0,0,0,0,30

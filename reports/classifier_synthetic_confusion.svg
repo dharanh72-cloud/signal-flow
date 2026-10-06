@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Synthetic session-held-out classifier confusion matrix" width="540" height="508" viewBox="0 0 540 508">
+<style>text{font-family:system-ui,sans-serif;fill:#24384f}.muted{fill:#6c7d90;font-size:10px}.title{font-size:16px;font-weight:700}</style>
+<text x="18" y="25" class="title">Synthetic session-held-out classifier</text>
+<text x="187.0" y="82" text-anchor="middle" class="muted">browsing</text>
+<text x="261.0" y="82" text-anchor="middle" class="muted">download</text>
+<text x="335.0" y="82" text-anchor="middle" class="muted">gaming</text>
+<text x="409.0" y="82" text-anchor="middle" class="muted">streaming</text>
+<text x="483.0" y="82" text-anchor="middle" class="muted">video_call</text>
+<text x="141" y="133.0" text-anchor="end" class="muted">browsing</text>
+<rect x="152" y="94" width="70" height="70" rx="6" fill="#a1abb8"/>
+<text x="187.0" y="134.0" text-anchor="middle" font-size="16" font-weight="700">20</text>
+<rect x="226" y="94" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="261.0" y="134.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="300" y="94" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="335.0" y="134.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="374" y="94" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="409.0" y="134.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="448" y="94" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="483.0" y="134.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<text x="141" y="207.0" text-anchor="end" class="muted">download</text>
+<rect x="152" y="168" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="187.0" y="208.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="226" y="168" width="70" height="70" rx="6" fill="#bdc7d4"/>
+<text x="261.0" y="208.0" text-anchor="middle" font-size="16" font-weight="700">10</text>
+<rect x="300" y="168" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="335.0" y="208.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="374" y="168" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="409.0" y="208.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="448" y="168" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="483.0" y="208.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<text x="141" y="281.0" text-anchor="end" class="muted">gaming</text>
+<rect x="152" y="242" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="187.0" y="282.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="226" y="242" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="261.0" y="282.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="300" y="242" width="70" height="70" rx="6" fill="#a1abb8"/>
+<text x="335.0" y="282.0" text-anchor="middle" font-size="16" font-weight="700">20</text>
+<rect x="374" y="242" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="409.0" y="282.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="448" y="242" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="483.0" y="282.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<text x="141" y="355.0" text-anchor="end" class="muted">streaming</text>
+<rect x="152" y="316" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="187.0" y="356.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="226" y="316" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="261.0" y="356.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="300" y="316" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="335.0" y="356.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="374" y="316" width="70" height="70" rx="6" fill="#a1abb8"/>
+<text x="409.0" y="356.0" text-anchor="middle" font-size="16" font-weight="700">20</text>
+<rect x="448" y="316" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="483.0" y="356.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<text x="141" y="429.0" text-anchor="end" class="muted">video_call</text>
+<rect x="152" y="390" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="187.0" y="430.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="226" y="390" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="261.0" y="430.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="300" y="390" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="335.0" y="430.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="374" y="390" width="70" height="70" rx="6" fill="#dae4f1"/>
+<text x="409.0" y="430.0" text-anchor="middle" font-size="16" font-weight="700">0</text>
+<rect x="448" y="390" width="70" height="70" rx="6" fill="#858f9c"/>
+<text x="483.0" y="430.0" text-anchor="middle" font-size="16" font-weight="700">30</text>
+</svg>

@@ -1,0 +1,40 @@
+[engine]
+model_max_score = 40
+rule_model_blend = 0.35
+medium_severity = 30
+high_severity = 60
+zscore_threshold = 3.0
+
+[port_scan]
+distinct_ports_medium = 8
+distinct_ports_high = 15
+score = 84
+
+[slow_scan]
+distinct_ports = 8
+minimum_span_seconds = 90
+score = 72
+
+[exfiltration]
+minimum_upload_bytes = 30000
+upload_download_ratio = 20.0
+score = 82
+
+[dos_burst]
+packets_per_second = 200.0
+minimum_packets = 100
+maximum_packet_size_mean = 600.0
+score = 78
+
+[beaconing]
+minimum_packets = 12
+minimum_duration_seconds = 30.0
+maximum_packet_size_mean = 180.0
+maximum_interarrival_cv = 0.05
+score = 70
+
+[dns_tunnel]
+minimum_packets = 12
+minimum_upload_bytes = 4000
+maximum_average_upload_packet_bytes = 700.0
+score = 76

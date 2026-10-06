@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b2d">
+  <meta name="description" content="Inspect encrypted network flows for unusual packet metadata patterns without decrypting traffic.">
+  <title>Signal / Flow · Network monitor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='monitor.css') }}">
+  <script src="{{ url_for('static', filename='monitor.js') }}" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Signal Flow home"><span class="brand-icon" aria-hidden="true">◈</span><span>signal / <strong>flow</strong></span></a>
+      <div class="topbar-right"><span class="privacy-label"><i></i> Payload remains encrypted</span><span class="mode-label">OFFLINE PCAP ANALYSIS</span></div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="eyebrow"><span></span> PACKET METADATA MONITOR</div>
+        <h1>See unusual traffic<br><span>without seeing content.</span></h1>
+        <p>Upload a packet capture to group TCP and UDP flows, estimate traffic patterns, and surface behavior that deserves a closer look.</p>
+      </section>
+
+      {% if public_host %}
+      <aside class="privacy-notice public-notice" role="note"><strong>Public demo:</strong> Your capture is sent to the hosting server for analysis. It is processed in memory and not saved by this app. Use the bundled synthetic samples; do not upload sensitive captures.</aside>
+      {% else %}
+      <aside class="privacy-notice" role="note"><strong>Local mode:</strong> Captures stay on this machine. Only packet headers, frame lengths, and timestamps are read; payload bytes are not inspected or retained.</aside>
+      {% endif %}
+
+      <section class="upload-panel" aria-labelledby="upload-title">
+        <form id="upload-form" enctype="multipart/form-data">
+          <div class="upload-head"><div><span class="section-label">START AN ANALYSIS</span><h2 id="upload-title">Choose a capture</h2></div><span class="limit-pill">PCAP · PCAPNG · 25 MB max</span></div>
+          <label class="drop-zone" id="drop-zone" for="capture-file">
+            <span class="upload-symbol" aria-hidden="true">↑</span>
+            <span class="drop-copy"><strong id="file-name">Drop a capture here or browse</strong><small>Flows with fewer than two packets are skipped.</small></span>
+            <input id="capture-file" name="capture" type="file" accept=".pcap,.pcapng,.cap" required>
+          </label>
+          <div class="upload-actions"><button class="button button-primary" id="analyze-button" type="submit">Analyze capture <span aria-hidden="true">↗</span></button><span class="or-label">OR TRY A SAMPLE</span><button type="button" class="button button-secondary sample-button" data-sample="normal.pcap">Normal traffic</button><button type="button" class="button button-secondary sample-button" data-sample="with_attacks.pcap">With injected attacks</button></div>
+          <p class="form-error" id="form-error" role="alert" hidden></p>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="dashboard" id="dashboard" hidden aria-label="Capture analysis results">
+        <div class="section-title-row"><div><span class="section-label">ANALYSIS OVERVIEW</span><h2 id="capture-title">Capture results</h2></div><div class="export-actions"><button id="export-csv" class="button button-secondary" type="button">Export CSV</button><button id="export-json" class="button button-secondary" type="button">Export JSON</button><button id="export-summary" class="button button-primary" type="button">Incident summary</button></div></div>
+
+        <div class="metric-grid" aria-label="Analysis summary">
+          <article class="metric-card"><span>Flows analyzed</span><strong id="metric-flows">—</strong><small>bidirectional TCP / UDP</small></article>
+          <article class="metric-card metric-alert"><span>Flows to review</span><strong id="metric-anomalies">—</strong><small id="metric-severity">medium or high severity</small></article>
+          <article class="metric-card"><span>Highest severity</span><strong id="metric-highest">—</strong><small>based on configured score bands</small></article>
+          <article class="metric-card metric-reason"><span>Top anomaly reason</span><strong id="metric-reason">—</strong><small id="metric-packets">— packets read</small></article>
+        </div>
+
+        <div class="visual-grid">
+          <article class="panel chart-panel"><div class="panel-heading"><div><span class="section-label">PREDICTED ACTIVITY</span><h3>Traffic mix</h3></div><span class="chart-caption">top class estimate by bytes</span></div><div id="mix-chart" class="mix-chart" role="img" aria-label="Traffic mix by top classifier estimate"></div><div id="mix-legend" class="mix-legend"></div><p id="mix-warning" class="mix-warning" role="status" hidden></p></article>
+          <article class="panel chart-panel"><div class="panel-heading"><div><span class="section-label">FLOW TIMELINE</span><h3>Anomalies over time</h3></div><span class="chart-caption">flows per time bucket</span></div><div id="timeline-chart" class="timeline-chart" role="img" aria-label="Flows and anomalies over time"></div><div class="chart-legend"><span><i class="legend-flow"></i>Flows</span><span><i class="legend-anomaly"></i>Medium and high alerts</span></div></article>
+          <article class="panel chart-panel score-panel"><div class="panel-heading"><div><span class="section-label">DETECTOR OUTPUT</span><h3>Score distribution</h3></div><span class="chart-caption">score from 0 to 100</span></div><div id="score-chart" class="score-chart" role="img" aria-label="Number of flows by anomaly score range"></div></article>
+          <article class="panel note-panel"><span class="section-label">READ THE ALERTS</span><h3>A signal to investigate</h3><p>A high score reflects a metadata pattern that crossed a statistical or rule threshold. It does not confirm compromise or identify an application.</p><div class="severity-key"><span class="severity severity-low">LOW <b>0–29</b></span><span class="severity severity-medium">MEDIUM <b>30–59</b></span><span class="severity severity-high">HIGH <b>60–100</b></span></div><small id="truncation-note"></small></article>
+        </div>
+
+        <section class="panel alerts-panel" aria-labelledby="alerts-title">
+          <div class="panel-heading alert-heading"><div><span class="section-label">FLOW LEVEL FINDINGS</span><h3 id="alerts-title">Alerts and flow details</h3></div><div class="table-tools"><label class="search-label" for="flow-search">Search flows</label><input type="search" id="flow-search" placeholder="Reason, class, protocol…"><label class="filter-label" for="severity-filter">Severity</label><select id="severity-filter"><option value="all">All scores</option><option value="high">High</option><option value="medium">Medium</option><option value="low">Low</option></select></div></div>
+          <div class="alerts-summary"><span id="visible-flow-count">0 flows</span><span>Click a row to inspect features and packet timing.</span></div>
+          <div class="table-scroll"><table><thead><tr><th><button data-sort="score" class="sort-button" type="button">Score <span aria-hidden="true">↕</span></button></th><th><button data-sort="severity" class="sort-button" type="button">Severity <span aria-hidden="true">↕</span></button></th><th><button data-sort="reasons" class="sort-button" type="button">Reason <span aria-hidden="true">↕</span></button></th><th><button data-sort="label_name" class="sort-button" type="button">Class estimate <span aria-hidden="true">↕</span></button></th><th><button data-sort="bytes" class="sort-button" type="button">Size <span aria-hidden="true">↕</span></button></th><th><button data-sort="duration" class="sort-button" type="button">Duration <span aria-hidden="true">↕</span></button></th><th>Review state</th></tr></thead><tbody id="flow-table-body"></tbody></table></div>
+          <div class="empty-state" id="empty-state" hidden>No flows match these filters.</div>
+          <div class="table-more"><span id="table-range"></span><button id="load-more" class="button button-secondary" type="button" hidden>Show 100 more</button></div>
+        </section>
+
+        <section class="panel replay-panel" aria-label="Capture replay">
+          <div><span class="section-label">REPLAY</span><h3>Watch flows arrive in order</h3><p>Replay streams the analyzed flow records from the selected capture.</p></div>
+          <div class="replay-controls"><button id="replay-button" class="button button-secondary" type="button" disabled>▶ Play replay</button><label for="replay-speed">Speed</label><select id="replay-speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option><option value="8">8×</option></select><progress id="replay-progress" value="0" max="100" aria-label="Replay progress"></progress><span id="replay-count">Ready</span></div>
+        </section>
+
+        <details class="evaluation-details"><summary>Evaluation and limitations</summary><div class="evaluation-copy"><p>This build evaluates its anomaly rules and Isolation Forest on deterministic synthetic traffic. Detection on synthetic patterns is easier than on real intrusions and is not a production detection guarantee. The encrypted traffic classifier's older labeled dataset has no session identifiers, so its historical 62.7% accuracy / 0.632 macro F1 is a random flow split and may leak capture-specific patterns. New capture runs now record a session ID; the classifier report uses whole-session holdout when at least two sessions exist.</p><p>No payloads are read. Rules can miss attacks that do not match their thresholds and can alert on benign bursts, backups, or unusual applications. Use findings to prioritize human review.</p></div></details>
+      </section>
+    </main>
+
+    <footer class="footer"><strong>Signal / Flow</strong><span>Packet metadata only · No automatic blocking · Local and self-hosted use</span></footer>
+  </div>
+
+  <dialog id="flow-dialog" class="flow-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-head"><div><span class="section-label">FLOW INSPECTOR</span><h2 id="dialog-title">Flow details</h2></div><button type="button" class="icon-button" id="close-dialog" aria-label="Close flow details">×</button></div>
+    <div id="dialog-content"></div>
+    <div class="dialog-actions"><button class="button button-secondary" id="ack-button" type="button">Acknowledge</button><button class="button button-secondary" id="dismiss-button" type="button">Dismiss alert</button></div>
+    <label class="note-label" for="flow-note">Investigation note</label><textarea id="flow-note" rows="3" maxlength="500" placeholder="Add a short note for this browser…"></textarea><button class="button button-primary save-note" id="save-note" type="button">Save note</button>
+    <p class="local-note">Review state and notes are stored in this browser only.</p>
+  </dialog>
+</body>
+</html>

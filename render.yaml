@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: signal-flow
+    runtime: python
+    plan: free
+    buildCommand: pip install .
+    startCommand: gunicorn --chdir src --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120 app:wsgi_app
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: DEMO_PUBLIC_HOST
+        value: "true"
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: SECRET_KEY
+        generateValue: true
