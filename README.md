@@ -1,14 +1,18 @@
-# Signal / Flow — privacy-friendly network anomaly monitor
+# Signal / Flow — see unusual traffic without seeing content
 
-**See what is using your bandwidth and find unusual flow patterns without breaking encryption or inspecting packet content.** Signal / Flow reads packet headers, frame sizes, directions, and timing. It groups bidirectional TCP/UDP flows, estimates five broad traffic classes, and scores anomalies with plain-language reasons.
+Offline analysis of encrypted network captures using **packet metadata only** (sizes, directions, ports, timing). It groups TCP/UDP flows, flags suspicious behavior with plain-language reasons, and shows everything in an interactive dashboard. Payloads are never read.
 
-**Live demo:** https://signal-flow-ixlb.onrender.com/ (free hosting: the first load can take up to a minute to wake). It is public, so use only the bundled sample captures.
+**Live demo:** https://signal-flow-ixlb.onrender.com/ — click **With injected attacks**. (Free hosting: the first load can take up to a minute. The demo is public, so use only the bundled samples.)
 
-![Signal / Flow demo](docs/demo.gif)
+![Signal / Flow dashboard walkthrough](docs/demo.gif)
 
-![Signal / Flow dashboard preview](docs/dashboard-preview.png)
+**Results at a glance (real captures, with their limits)**
 
-The preview uses the bundled synthetic `with_attacks.pcap`. A 13 MB capture analyzes in about a second on a laptop. **Live demo (free tier, first load may take about a minute): https://signal-flow-ixlb.onrender.com** (prototype; the hosted instance deploys from [`render.yaml`](render.yaml)).
+- **Botnet:** on a public CTU-13 "Neris" capture, the detector flagged the infected host and 99.8% of its 5,230 flows. The fixed rules did the work; the learned model alone flagged none of them. One botnet, one host.
+- **Normal traffic:** on two held-out slices of a separate busy-use recording (378 flows), 5 alerts (1.3%), all from the large-upload rule. Same network as the training data, so this says nothing about other networks.
+- **Classifier:** a prototype. Its 62.7% comes from a random flow split that may leak, so it is not real-world accuracy. The bundled sample captures are synthetic and demonstrate anomaly detection, not classification.
+
+Built with Python, Scapy, scikit-learn (Isolation Forest and Random Forest) and Flask, with 41 tests. Run it locally with the steps below; full results and caveats are in the results sections further down.
 
 ## Try it locally
 
