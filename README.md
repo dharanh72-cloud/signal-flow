@@ -2,6 +2,8 @@
 
 **See what is using your bandwidth and find unusual flow patterns without breaking encryption or inspecting packet content.** Signal / Flow reads packet headers, frame sizes, directions, and timing. It groups bidirectional TCP/UDP flows, estimates five broad traffic classes, and scores anomalies with plain-language reasons.
 
+**Live demo:** https://signal-flow-ixlb.onrender.com/ (free hosting: the first load can take up to a minute to wake). It is public, so use only the bundled sample captures.
+
 ![Signal / Flow demo](docs/demo.gif)
 
 ![Signal / Flow dashboard preview](docs/dashboard-preview.png)
