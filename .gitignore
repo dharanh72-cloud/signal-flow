@@ -23,3 +23,5 @@ captures/
 datasets/
 slices/
 models/previous_anomaly/
+
+.freebuff/
