@@ -42,7 +42,6 @@ py-modules = [
   "live_classify",
   "pcap_reader",
   "pipeline",
-  "qos",
   "train",
 ]
 

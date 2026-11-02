@@ -6,11 +6,13 @@ high_severity = 60
 zscore_threshold = 3.0
 
 [port_scan]
+window_seconds = 60.0
 distinct_ports_medium = 8
 distinct_ports_high = 15
 score = 84
 
 [slow_scan]
+probe_max_packets = 4
 distinct_ports = 8
 minimum_span_seconds = 90
 score = 72

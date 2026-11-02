@@ -4,8 +4,8 @@ The detector scores each flow from 0 to 100. It combines a normal-only Isolation
 
 | Detector | Trigger | Default rule score | Common benign lookalikes |
 | --- | --- | ---: | --- |
-| Port scan | One source contacts at least 8 distinct destination ports in this capture; 15 ports marks the stronger band in the explanation. | 84 | Service discovery, vulnerability scans, monitoring |
-| Slow scan | At least 8 distinct ports from one source spread over 90 seconds or more. | 72 | Long maintenance checks, inventory tools |
+| Port scan | One source contacts at least 8 distinct destination ports within any 60-second window (`window_seconds`; 0 means the whole capture); 15 ports marks the stronger band in the explanation. | 84 | Service discovery, vulnerability scans, monitoring |
+| Slow scan | At least 8 distinct ports reached by short connections (4 packets or fewer, `probe_max_packets`; 0 counts every flow) from one source, spread over 90 seconds or more. | 72 | Long maintenance checks, inventory tools |
 | Possible exfiltration | At least 30,000 upstream frame bytes and an upstream/downstream byte ratio of at least 20. | 82 | Cloud backup, upload, synchronization |
 | High-rate burst | At least 100 packets in a flow and at least 200 packets/second. | 78 | Short-lived load tests, busy media bursts |
 | Beacon-like traffic | At least 12 packets over 30 seconds; mean frame size at most 180 bytes; inter-arrival coefficient of variation at most 0.05. | 70 | Keep-alives, telemetry, periodic health checks |

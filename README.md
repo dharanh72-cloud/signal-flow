@@ -12,7 +12,7 @@ Offline analysis of encrypted network captures using **packet metadata only** (s
 - **Normal traffic:** on two held-out slices of a separate busy-use recording (378 flows), 5 alerts (1.3%), all from the large-upload rule. Same network as the training data, so this says nothing about other networks.
 - **Classifier:** a prototype. Its 62.7% comes from a random flow split that may leak, so it is not real-world accuracy. The bundled sample captures are synthetic and demonstrate anomaly detection, not classification.
 
-Built with Python, Scapy, scikit-learn (Isolation Forest and Random Forest) and Flask, with 41 tests. Run it locally with the steps below; full results and caveats are in the results sections further down.
+Built with Python, Scapy, scikit-learn (Isolation Forest and Random Forest) and Flask, with 49 tests. Run it locally with the steps below; full results and caveats are in the results sections further down.
 
 ## Try it locally
 
@@ -104,6 +104,7 @@ The shipped anomaly model is trained on 1,355 flows of recorded benign traffic: 
 | CTU-13 Neris botnet slice (5,230 flows, 100,000 packets) | 99.8% of attack flows alerted, all by the scan and exfiltration rules; the model alone flagged none |
 | Mixed capture: 43 benign flows + 2,748 Neris attack flows | Current model: 99.7% recall (2,740 of 2,748), 0 of 43 benign flows alerted; precision 100.0% is inflated by the 64:1 attack-to-benign ratio, and the 43 flows are a subset of the browsing capture |
 | Benign busy session, two slices of a separate recording on the same hotspot (not in training) | **5 of 378 flows alerted (1.3%, 95% interval about 0.5-3.0%)**, all from the large-upload rule (big uploads such as cloud sync or calls, flagged for review); the anomaly model alone flagged none. Same network as the training data, so not evidence for other networks |
+| Ablation: rules vs learned model on the same captures (`scripts/ablation.py`, `reports/ablation_*.md`) | Neris: rules only 99.8% recall (5,219 of 5,230), model only 0.0% (0 of 5,230), both 99.8%. Benign slices (180 and 65 flows): the model alone alerted on none. In every capture measured, the learned model never produced an alert on its own, so alerts come from the fixed rules. A 60-second window on the port-scan rule left Neris recall unchanged. Not tested on attacks the rules cannot see |
 | Held-out end of the second capture (31 flows, current model) | 6.5% (2 flows), both from the `exfiltration` rule rather than the model; the previous model also had 1 model-only alert (9.7%) |
 
 What this shows: the fixed rules detect scan-like behavior and stayed quiet on normal browsing and streaming, except for the two held-out flows above. Retraining on more varied benign traffic removed the anomaly model's false alarms on the independent browsing capture, but the model has **not** been shown to catch any attack the rules miss. The Neris capture is one infected host scanning many ports, and the benign samples are small, so false-alarm rates carry wide margins of error.

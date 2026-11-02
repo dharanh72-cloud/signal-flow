@@ -35,6 +35,30 @@ def severity_for(score: int, config: dict) -> str:
     return "low"
 
 
+def max_distinct_in_window(events: list[tuple[float, int]], window: float) -> int:
+    """Most distinct ports seen in any `window`-second span of (timestamp, port) events.
+
+    A window of 0 or less means "the whole capture", which is the original behavior.
+    """
+    if not events:
+        return 0
+    events = sorted(events)
+    if window <= 0:
+        return len({port for _, port in events})
+    counts: dict[int, int] = {}
+    best = left = 0
+    for timestamp, port in events:
+        counts[port] = counts.get(port, 0) + 1
+        while timestamp - events[left][0] > window:
+            old_port = events[left][1]
+            counts[old_port] -= 1
+            if counts[old_port] == 0:
+                del counts[old_port]
+            left += 1
+        best = max(best, len(counts))
+    return best
+
+
 class AnomalyDetector:
     """Combine Isolation Forest novelty with metadata-only attack rules."""
 
@@ -96,26 +120,28 @@ class AnomalyDetector:
         hits = []
         config = self.config
 
-        ports = context["ports_by_source"].get(flow.client_ip, set())
-        port_count = len(ports)
         scan = config["port_scan"]
+        port_count = context["scan_ports_by_source"].get(flow.client_ip, 0)
+        window = float(scan.get("window_seconds", 0))
+        where = f"within {window:.0f} seconds" if window > 0 else "in this capture"
         if port_count >= scan["distinct_ports_medium"]:
             level = "many" if port_count >= scan["distinct_ports_high"] else "several"
             hits.append({
                 "code": "port_scan",
                 "name": "Port scan",
                 "score": int(scan["score"]),
-                "reason": f"This source contacted {port_count} distinct destination ports ({level} for one capture).",
+                "reason": f"This source contacted {port_count} distinct destination ports {where} ({level}).",
             })
 
-        span = context["span_by_source"].get(flow.client_ip, 0.0)
         slow = config["slow_scan"]
-        if port_count >= slow["distinct_ports"] and span >= slow["minimum_span_seconds"]:
+        probe_ports = context["probe_ports_by_source"].get(flow.client_ip, 0)
+        span = context["probe_span_by_source"].get(flow.client_ip, 0.0)
+        if probe_ports >= slow["distinct_ports"] and span >= slow["minimum_span_seconds"]:
             hits.append({
                 "code": "slow_scan",
                 "name": "Slow port scan",
                 "score": int(slow["score"]),
-                "reason": f"Connections reached {port_count} ports over {span:.0f} seconds.",
+                "reason": f"Short connections reached {probe_ports} ports over {span:.0f} seconds.",
             })
 
         exfil = config["exfiltration"]
@@ -176,19 +202,32 @@ class AnomalyDetector:
 
     def score_flows(self, records: list) -> list[dict]:
         """Score all flows together so source-wide port scans can be detected."""
-        ports_by_source = defaultdict(set)
-        times_by_source = defaultdict(list)
+        window = float(self.config["port_scan"].get("window_seconds", 0))
+        probe_max = int(self.config["slow_scan"].get("probe_max_packets", 0))
+        starts_by_source = defaultdict(list)
+        probe_ports_by_source = defaultdict(set)
+        probe_times_by_source = defaultdict(list)
         for record in records:
             flow = record.flow
-            ports_by_source[flow.client_ip].add(flow.server_port)
-            times_by_source[flow.client_ip].extend(
-                packet.timestamp for packet in flow.packets
-            )
+            source = flow.client_ip
+            starts_by_source[source].append((flow.start_time, flow.server_port))
+            # Slow scans are made of short probe connections, not long conversations.
+            if probe_max <= 0 or flow.packet_count <= probe_max:
+                probe_ports_by_source[source].add(flow.server_port)
+                probe_times_by_source[source].extend(
+                    packet.timestamp for packet in flow.packets
+                )
         context = {
-            "ports_by_source": ports_by_source,
-            "span_by_source": {
+            "scan_ports_by_source": {
+                source: max_distinct_in_window(events, window)
+                for source, events in starts_by_source.items()
+            },
+            "probe_ports_by_source": {
+                source: len(ports) for source, ports in probe_ports_by_source.items()
+            },
+            "probe_span_by_source": {
                 source: max(times) - min(times) if times else 0.0
-                for source, times in times_by_source.items()
+                for source, times in probe_times_by_source.items()
             },
         }
 

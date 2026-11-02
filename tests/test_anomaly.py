@@ -147,3 +147,61 @@ def test_batched_model_scores_match_single_flow_scores():
     single = [detector._statistical_score(record.features)[1] for record in records]
     assert batched == single
     assert detector._model_scores([]) == []
+
+
+def _busy_host_records(ports=12, gap=100.0):
+    """A normal-looking host: one long conversation to a new port every `gap` seconds."""
+    source, server = "192.0.2.20", "198.51.100.20"
+    records = []
+    for index in range(ports):
+        start = index * gap
+        packets = [(start + step * 0.5, 600, "up" if step % 2 == 0 else "down") for step in range(20)]
+        records.append(_record(source, server, 43_000 + index, 3000 + index, "TCP", packets))
+    return records
+
+
+def _scan_hits(alerts):
+    return {hit["code"] for alert in alerts for hit in alert["rule_hits"]} & {"port_scan", "slow_scan"}
+
+
+def test_max_distinct_in_window_counts_only_ports_inside_the_window():
+    from anomaly import max_distinct_in_window
+
+    events = [(index * 100.0, 1000 + index) for index in range(12)]
+    assert max_distinct_in_window(events, 60.0) == 1
+    assert max_distinct_in_window(events, 250.0) == 3
+    assert max_distinct_in_window(events, 0) == 12
+    assert max_distinct_in_window([], 60.0) == 0
+    burst = [(10 + index * 0.1, 2000 + index) for index in range(9)]
+    # the 9 burst ports plus the port seen at t=0, which is within 60 seconds of the burst
+    assert max_distinct_in_window(burst + events, 60.0) == 10
+
+
+def test_long_benign_capture_with_many_ports_is_not_called_a_scan():
+    alerts = _detector().score_flows(_busy_host_records())
+    assert _scan_hits(alerts) == set()
+
+
+def test_whole_capture_window_restores_the_old_behavior():
+    config = copy.deepcopy(load_config())
+    config["port_scan"]["window_seconds"] = 0
+    config["slow_scan"]["probe_max_packets"] = 0
+    metadata = {"feature_names": FEATURE_NAMES, "score_threshold_q01": 0.0,
+                "score_min": -1.0, "feature_stats": {}}
+    detector = AnomalyDetector(FixedModel(0.2), IdentityScaler(), metadata, config)
+    assert _scan_hits(detector.score_flows(_busy_host_records())) == {"port_scan", "slow_scan"}
+
+
+def test_fast_scan_inside_a_long_capture_is_still_flagged():
+    source, server = "192.0.2.21", "198.51.100.21"
+    records = _busy_host_records(ports=6)
+    records += [
+        _record(source, server, 44_000 + index, 4000 + index, "TCP",
+                [(300 + index * 0.1, 60, "up"), (300.02 + index * 0.1, 60, "down")])
+        for index in range(10)
+    ]
+    alerts = _detector().score_flows(records)
+    flagged = [alert for record, alert in zip(records, alerts, strict=True)
+               if record.flow.client_ip == source]
+    assert flagged and all(
+        any(hit["code"] == "port_scan" for hit in alert["rule_hits"]) for alert in flagged)
