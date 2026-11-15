@@ -12,7 +12,7 @@ Offline analysis of encrypted network captures using **packet metadata only** (s
 - **Normal traffic:** on two held-out slices of a separate busy-use recording (378 flows), 5 alerts (1.3%), all from the large-upload rule. Same network as the training data, so this says nothing about other networks.
 - **Classifier:** a prototype. Its 62.7% comes from a random flow split that may leak, so it is not real-world accuracy. The bundled sample captures are synthetic and demonstrate anomaly detection, not classification.
 
-Built with Python, Scapy, scikit-learn (Isolation Forest and Random Forest) and Flask, with 49 tests. Run it locally with the steps below; full results and caveats are in the results sections further down.
+Built with Python, Scapy, scikit-learn (Isolation Forest and Random Forest) and Flask, with 50 tests. Run it locally with the steps below; full results and caveats are in the results sections further down.
 
 ## Try it locally
 
