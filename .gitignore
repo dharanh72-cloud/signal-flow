@@ -27,3 +27,6 @@ models/previous_anomaly/
 .freebuff/
 
 .freebuff/
+
+.freebuff/
+models_traffic_only/

@@ -107,6 +107,8 @@ The shipped anomaly model is trained on 1,355 flows of recorded benign traffic: 
 | Ablation: rules vs learned model on the same captures (`scripts/ablation.py`, `reports/ablation_*.md`) | Neris: rules only 99.8% recall (5,219 of 5,230), model only 0.0% (0 of 5,230), both 99.8%. Benign slices (180 and 65 flows): the model alone alerted on none. In every capture measured, the learned model never produced an alert on its own, so alerts come from the fixed rules. A 60-second window on the port-scan rule left Neris recall unchanged. Not tested on attacks the rules cannot see |
 | Held-out end of the second capture (31 flows, current model) | 6.5% (2 flows), both from the `exfiltration` rule rather than the model; the previous model also had 1 model-only alert (9.7%) |
 
+Botnet data: Garcia, Sebastian. Malware Capture Facility Project, Stratosphere Laboratory, CTU in Prague. https://stratosphereips.org (CTU-13 Scenario 1, "Neris"). The capture files are not included in this repository.
+
 What this shows: the fixed rules detect scan-like behavior and stayed quiet on normal browsing and streaming, except for the two held-out flows above. Retraining on more varied benign traffic removed the anomaly model's false alarms on the independent browsing capture, but the model has **not** been shown to catch any attack the rules miss. The Neris capture is one infected host scanning many ports, and the benign samples are small, so false-alarm rates carry wide margins of error.
 
 **Known limits found in testing.**
