@@ -90,3 +90,13 @@ def test_sample_analysis_renders_without_errors_or_sideways_scroll(server, brows
     assert page.evaluate("() => !!document.querySelector('dialog[open]')")
     assert errors == []
     page.close()
+
+def test_low_confidence_warning_appears_on_the_synthetic_sample(server, browser):
+    page = browser.new_page()
+    page.goto(server + "/?sample=with_attacks.pcap")
+    _wait_for_text(page, "#metric-flows", str.isdigit)
+    warning = page.locator("#mix-warning")
+    warning.wait_for(state="visible", timeout=10_000)
+    assert "low-confidence" in warning.inner_text()
+    page.close()
+
