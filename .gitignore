@@ -14,8 +14,6 @@ __pycache__/
 *.py[cod]
 dist/
 venv/
-.venv/
-__pycache__/
 *.pyc
 *.egg-info/
 captures/
@@ -26,7 +24,5 @@ models/previous_anomaly/
 
 .freebuff/
 
-.freebuff/
 
-.freebuff/
 models_traffic_only/
