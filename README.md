@@ -81,7 +81,7 @@ python scripts/evaluate_anomaly.py
 
 ### External checks on real public/recorded captures
 
-The shipped anomaly model is trained on 1,355 flows of recorded benign traffic: `traffic.pcap` (901 flows) plus three chunks of a second, long capture on another network (283, 98 and 73 flows, mostly large UDP/QUIC streams). The model was retrained in three steps, and the earlier rows below were measured with earlier versions, as noted. Alert = medium or high severity. All results come from one person's traffic on two networks and are a first external check, not a benchmark.
+The shipped anomaly model is trained on 1,355 flows of recorded benign traffic: `traffic.pcap` (901 flows) plus three chunks of a second, long capture on the same network (283, 98 and 73 flows, mostly large UDP/QUIC streams). The model was retrained in three steps, and the earlier rows below were measured with earlier versions, as noted. Alert = medium or high severity. All results come from one person's traffic on one network and are a first external check, not a benchmark.
 
 #### Which capture was used for what
 
