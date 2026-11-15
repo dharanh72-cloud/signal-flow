@@ -8,7 +8,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "dist" / "signal-flow.zip"
 ROOT_FILES = (
-    ".env.example", ".gitignore", ".python-version", "Dockerfile", "LICENSE",
+    ".gitignore", ".python-version", "Dockerfile", "LICENSE",
     "Makefile", "README.md", "pyproject.toml", "render.yaml", "requirements.txt",
 )
 DIRECTORIES = (

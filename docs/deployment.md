@@ -9,7 +9,7 @@ python -m pip install -e .
 python src/app.py
 ```
 
-Open `http://127.0.0.1:5000`. The app generates an ephemeral secret if `SECRET_KEY` is unset. For a stable local value, copy `.env.example` to `.env` and replace the example value.
+Open `http://127.0.0.1:5000`. The app generates an ephemeral secret if `SECRET_KEY` is unset. For a stable local value, create a `.env` file containing `SECRET_KEY=` followed by a long random string.
 
 ## Docker
 
