@@ -155,6 +155,8 @@ Step-by-step help, including public datasets and how to test the anomaly detecto
 
 Quick experiments on the 1,554 real flows (5-fold random split, so optimistic and only useful for comparing options): gradient boosting scored 63.6% against 63.2% for the Random Forest, and keeping only larger flows (10+ or 20+ packets, or 5 KB+) did not improve accuracy (61–62%). Neither change is worth adopting; the limit is more likely the data (flows labeled by the session they were recorded in, with no independent sessions), which is why the real-capture steps above matter more than model tuning.
 
+The classifier's training rows all carry the same value (1.0) for `max_concurrent_flows`, because that feature was added after the data was recorded. A Random Forest cannot split on a constant column, so the classifier effectively learns from 33 of the 34 features. The anomaly model is fitted from pcaps and does use the feature.
+
 Other limits: encrypted metadata cannot prove the application, user, or intent; packet loss and capture direction affect features; the scan rules depend on source grouping and fixed thresholds; benign backups, checks, DNS, keep-alives, and media bursts may look unusual. Use alerts to focus review, not as proof of compromise.
 
 ## Project layout
